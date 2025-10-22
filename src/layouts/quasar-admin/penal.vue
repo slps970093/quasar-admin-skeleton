@@ -29,12 +29,10 @@ const toggleLeftDrawer = () => {
         </q-toolbar-title>
         <q-space/>
         <div class="q-gutter-sm row items-center no-wrap">
-          <!--
-          <q-btn round dense flat color="white" :icon="$q.fullscreen.isActive ? 'fa-solid fa-compress' : 'fa-solid fa-expand'"
+          <q-btn round dense flat color="white" :icon="$q.fullscreen.isActive ? 'fas fa-compress' : 'fas fa-expand'"
                  @click="$q.fullscreen.toggle()"
                  v-if="$q.screen.gt.sm">
           </q-btn>
-          -->
           <q-btn round dense flat color="white" icon="fab fa-github" type="a"
                  href="https://github.com/pratik227/quasar-admin" target="_blank">
           </q-btn>

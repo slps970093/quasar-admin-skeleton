@@ -1,5 +1,5 @@
 import type { QuasarPluginOptions } from 'quasar'
-import { Notify, Dialog } from 'quasar'
+import { Notify, Dialog, AppFullscreen } from 'quasar'
 
 import * as AllQuasarComponents from 'quasar'
 import 'quasar/dist/quasar.css'
@@ -16,6 +16,7 @@ export const quasarOptions: QuasarPluginOptions = {
   iconSet: fontawesomeV6IconSet,
   plugins: {
     Notify,
-    Dialog
+    Dialog,
+    AppFullscreen
   }
 }
