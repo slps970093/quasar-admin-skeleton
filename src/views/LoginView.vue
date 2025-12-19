@@ -77,7 +77,7 @@ const onSubmit = async () => {
     $q.notify({
       type: 'positive',
       message: '登入成功！',
-      icon: 'fa-solid fa-check-circle'
+      icon: 'fas fa-check-circle'
     })
 
     // 登入成功後跳轉到 dashboard
